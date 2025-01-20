@@ -7,7 +7,7 @@ body{
 }
 
 .f-s{
-    font-size: 13px;
+    font-size: 15px;
 }
 
 header{
@@ -68,7 +68,7 @@ ul{
 .card, .text-card{
     color: white;
    text-align: center;
-   width: 700px;
+   width: 500px;
 }
 
 h1{
@@ -76,40 +76,46 @@ h1{
     margin-top: 0;
 }
 
+.bottone-2{
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 9px;
+    
+
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.photo{
+    width:600px ;
+    }
 
 .invite-only{
-    display: flex;
-    align-items: center;
-    padding: 20px;
+display: flex;
+align-items: center;
+padding: 50px;
 }
 
 .photo-card{
-    min-height: 245px;
+    min-height: 250px;
     width: 60%;
-    background-color: #1e90ff;
 }
 
-.{
-    min-height: 245px;
-    width: 40%;
-    background-color: #f08080;
+
+.text{
+    min-height: 250px;
+    width: 40% ;
+    padding: 20px 250px;
 }
+
+
+
+
+
+
 
 .bc-card{
     background-color: #d3d3d3;
