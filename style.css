@@ -1,0 +1,190 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.f-s{
+    font-size: 13px;
+}
+
+header{
+    background-color: #3161e0
+    
+}
+
+
+.container{
+    max-width: 80%;
+    height: 60%;
+    margin: auto;
+}
+
+
+
+.flex-container{
+    display: flex;
+    align-items:center;
+   justify-content: space-between;
+}
+
+
+
+ul{
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.bottone{
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 9px;
+    
+}
+
+
+
+.jumbotron{
+    padding-top: 100px;
+    display: flex;
+    height: 400px;
+    background-image: url(./image/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+
+.card, .text-card{
+    color: white;
+   text-align: center;
+   width: 700px;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.invite-only{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.photo-card{
+    min-height: 245px;
+    width: 60%;
+    background-color: #1e90ff;
+}
+
+.{
+    min-height: 245px;
+    width: 40%;
+    background-color: #f08080;
+}
+
+.bc-card{
+    background-color: #d3d3d3;
+}
+
+.community{
+     display: flex;
+     align-items: center;
+     padding: 20px;
+}
+
+.photo-community{
+    height: 245px;
+    width: 40%;
+    background-color: #f08080;
+}
+.text-community{
+    height: 245px;
+    width: 60%;
+    background-color: #1e90ff;
+}
+
+.fandom{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.photo-fandom{
+    height: 245px;
+    width: 60%;
+    background-color: #1e90ff;
+}
+.text-fandom{
+    height: 245px;
+    width: 40%;
+    background-color: #f08080;
+}
+
+.technology-card{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.technology{
+    min-height: 600px;
+    background-color: #228b22;
+}
+
+footer{
+    background-color: #23272a;
+}
+
+.last-container{
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.info{
+    width: 40%;
+    min-height: 345px;
+    background-color: #f08080;
+}
+.info-1{
+    width: 15%;
+    min-height: 345px;
+    background-color: #1e90ff;
+    border: dotted 1px black;
+}
+
+.last-section{
+    min-height: 100px;
+    display: flex;
+    background-color: #add8e6;
+    align-items: center;
+    justify-content: space-between;
+}
+
