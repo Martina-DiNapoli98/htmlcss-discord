@@ -17,8 +17,8 @@ header{
 
 
 .container{
-    max-width: 80%;
-    height: 60%;
+    width: 80%;
+    min-height: 60%;
     margin: auto;
 }
 
@@ -72,7 +72,7 @@ ul{
 }
 
 h1{
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 0;
 }
 
@@ -90,18 +90,12 @@ h1{
 
 
 .photo{
-    width:600px ;
+    width:500px ;
     }
 
 .invite-only{
 display: flex;
-align-items: center;
 padding: 50px;
-}
-
-.photo-card{
-    min-height: 250px;
-    width: 60%;
 }
 
 
@@ -117,26 +111,20 @@ padding: 50px;
 
 
 
-.bc-card{
-    background-color: #d3d3d3;
-}
+
+
 
 .community{
      display: flex;
-     align-items: center;
-     padding: 20px;
+     padding: 50px;
 }
 
 .photo-community{
-    height: 245px;
     width: 40%;
-    background-color: #f08080;
+    min-height: 250px;
+   
 }
-.text-community{
-    height: 245px;
-    width: 60%;
-    background-color: #1e90ff;
-}
+
 
 .fandom{
     display: flex;
